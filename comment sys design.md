@@ -80,8 +80,8 @@ topictId ：评论对象在原有平台的id
 topicUuid : 评论对象uuid
 block : 板块。话题所属的板块(扩展字段)
 subject ：专题。话题所属的专题(扩展字段)
-type ： 分类，10000：电子商务类、20000：社交信息类、30000：新闻资讯类
-parentType : 父分类
+ttype ： 分类，10000：电子商务类、20000：社交信息类、30000：新闻资讯类
+parentType : 父分类. 默认-1，即type为三大分类
 detail : 话题简要内容
 likes : 喜欢/赞 计数
 comments : 评论 计数
